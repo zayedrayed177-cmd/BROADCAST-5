@@ -1,7 +1,7 @@
 module.exports = {
     bot: {
         tokens: [
-          "YOUR_BOT_TOKEN_HERE",              // Main bot token - Replace with your actual token
+          "MTM0NTc0MDIyMjgzODg3MDE0Mg.GS2p2b.x9_OWPgx5OSOeJoxglOA_E4-W-dvyzOeBKs9yI",              // Main bot token - Replace with your actual token
         //  "YOUR_SECOND_BOT_TOKEN_HERE",      // 2 bot token - Uncomment and replace to use
         //  "YOUR_THIRD_BOT_TOKEN_HERE",       // 3 bot token - Uncomment and replace to use
         //  "YOUR_FOURTH_BOT_TOKEN_HERE",      // 4 bot token - Uncomment and replace to use
@@ -11,15 +11,15 @@ module.exports = {
         defaultLanguage: 'ar', // ar | en لغة البوت
         
         activity: {
-            name: 'Wick Studio', // رسالة حالة البوت
-            type: 'WATCHING', // PLAYING, STREAMING, LISTENING, WATCHING, COMPETING
+            name: 'Fight Zone', // رسالة حالة البوت
+            type: 'PLAYING', // PLAYING, STREAMING, LISTENING, WATCHING, COMPETING
             status: 'dnd' // online, idle, dnd, invisible
         }
     },
     server: {
-        guildId: 'ID',         // ايدي السيرفر
-        broadcastRoleId: 'ID', // ايدي الرول اللي يستخدم عليها البوت
-        reportChannelId: 'ID' // ايدي الروم اللي يرسل فيه البوت التقارير
+        guildId: '1504850525362061513',         // ايدي السيرفر
+        broadcastRoleId: '1345740222838870142', // ايدي الرول اللي يستخدم عليها البوت
+        reportChannelId: '1504851257444012092' // ايدي الروم اللي يرسل فيه البوت التقارير
     },
     broadcast: {
         cooldownTime: 1000, // لا تلعب فيها
